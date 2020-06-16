@@ -6,8 +6,28 @@
 	<dict>
 		<key>Realm Master.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B16814E72498DA45004673E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B16814FD2498DA48004673E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B16815082498DA48004673E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

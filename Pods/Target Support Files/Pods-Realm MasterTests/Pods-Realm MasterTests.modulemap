@@ -1,0 +1,6 @@
+framework module Pods_Realm_MasterTests {
+  umbrella header "Pods-Realm MasterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
