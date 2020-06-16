@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -101,13 +101,13 @@
 				B7A899453D1FE968CC5E7AD5 /* Pods-Realm MasterTests.debug.xcconfig */,
 				FCECF1ABC0A4C510B22661AF /* Pods-Realm MasterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		B16814DF2498DA45004673E6 = {
 			isa = PBXGroup;
 			children = (
+				B16815382498DABA004673E6 /* README.md */,
 				B16814EA2498DA45004673E6 /* Realm Master */,
 				B16814E92498DA45004673E6 /* Products */,
 				49F901E3E9B5900288A19FC9 /* Pods */,
@@ -133,7 +133,6 @@
 				B16815472498DB2C004673E6 /* Helper */,
 				B16815442498DB06004673E6 /* Handler */,
 				B168153F2498DADD004673E6 /* Delegates */,
-				B16815382498DABA004673E6 /* README.md */,
 				B16814F92498DA48004673E6 /* Info.plist */,
 			);
 			path = "Realm Master";
