@@ -57,6 +57,27 @@ class DatabaseHandler {
         }
         
     }
+    static func writeListData<T:Object>(list:[T]) {
+         
+        let realm = try! Realm()
+        do {
+            try realm.write {
+                for data in list {
+                    realm.add(data)
+                }
+            }
+        } catch let error {
+            #if DEBUG
+            print(error)
+            #endif
+        }
+        
+    }
+    
+    static func updateForceFully<T:Object>(realmClass:T.Type,parameterName:String,parameterValue:String,newObject:T) {
+        deleteObjectbyParameter(realmClass: realmClass, parameterName: parameterName, parameterValue: parameterValue)
+        writeData(data: newObject)
+    }
     
     static func deleteSpecificObject<T:Object>(realmClass: T.Type) {
         

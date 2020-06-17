@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>read_list</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#variable_name#&gt; = DatabaseHandler.readListofData(realmClass: &lt;#class_name#&gt;.self)
+        guard &lt;#variable_name#&gt;.count &gt; 0  else {
+            &lt;#fallback_code#&gt;
+            return
+        }
+        &lt;#process_logic#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>85036207-DBFD-487F-9606-280332055C6B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>To read list of data from Realm</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Realm - Read List of Data</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

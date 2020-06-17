@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>delete_parameter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>DatabaseHandler.deleteObjectbyParameter(realmClass: &lt;#class_name#&gt;.self, parameterName: &lt;#parameter_name#&gt;, parameterValue: &lt;#parameter_value#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>57BCEA94-3E89-4E55-B723-4AE8C60DDFDB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>To delete a realm object by parameter value</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Realm - Delete Object by Parameter </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
