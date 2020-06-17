@@ -10,6 +10,9 @@ import UIKit
 import Realm
 import RealmSwift
 
+//Prerequisite - include pod 'RealmSwift' and install the pod
+
+
 //MARK: - Handler - CRUD
 class DatabaseHandler {
     
