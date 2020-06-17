@@ -162,6 +162,10 @@ Sample Class is given in the handler to show the demo. There are four important 
 
 ----------------------------------------------------------------------------------------------------
 
+## Template Part
+
+### Go to ~/Library/Developer/Xcode/Templates and create your own template for Realm handler and add it just like any other file
+
 ## Snippets Part
 
 ### Go to ~/Library/Developer/Xcode/UserData/CodeSnippets/ in Finder and paste the Code snippets 

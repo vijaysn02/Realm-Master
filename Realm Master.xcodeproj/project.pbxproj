@@ -13,11 +13,11 @@
 		B168153E2498DABA004673E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B16815382498DABA004673E6 /* README.md */; };
 		B16815422498DAF3004673E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16815402498DAF3004673E6 /* SceneDelegate.swift */; };
 		B16815432498DAF3004673E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16815412498DAF3004673E6 /* AppDelegate.swift */; };
-		B16815462498DB22004673E6 /* RealmHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16815452498DB22004673E6 /* RealmHandler.swift */; };
 		B168154F2498DB53004673E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B168154C2498DB53004673E6 /* LaunchScreen.storyboard */; };
 		B16815502498DB53004673E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B168154E2498DB53004673E6 /* Assets.xcassets */; };
 		B16815552498DB80004673E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16815522498DB80004673E6 /* ViewController.swift */; };
 		B16815562498DB80004673E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16815532498DB80004673E6 /* Main.storyboard */; };
+		B16AAD9F249A74A2003059EB /* RealmHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AAD9E249A74A2003059EB /* RealmHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		B16815382498DABA004673E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B16815402498DAF3004673E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B16815412498DAF3004673E6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B16815452498DB22004673E6 /* RealmHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHandler.swift; sourceTree = "<group>"; };
 		B168154D2498DB53004673E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B168154E2498DB53004673E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16815522498DB80004673E6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		B16AAD9B249A73C4003059EB /* realm_read_list.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = realm_read_list.codesnippet; sourceTree = "<group>"; };
 		B16AAD9C249A73C4003059EB /* realm_delete_object.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = realm_delete_object.codesnippet; sourceTree = "<group>"; };
 		B16AAD9D249A73C4003059EB /* realm_read_data.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = realm_read_data.codesnippet; sourceTree = "<group>"; };
+		B16AAD9E249A74A2003059EB /* RealmHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHandler.swift; sourceTree = "<group>"; };
 		B7A899453D1FE968CC5E7AD5 /* Pods-Realm MasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm MasterTests.debug.xcconfig"; path = "Target Support Files/Pods-Realm MasterTests/Pods-Realm MasterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB74A409B5DB85A6A68AA00 /* Pods_Realm_MasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_MasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D623485536987A8374F3445E /* Pods-Realm Master-Realm MasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Master-Realm MasterUITests.release.xcconfig"; path = "Target Support Files/Pods-Realm Master-Realm MasterUITests/Pods-Realm Master-Realm MasterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		B16815442498DB06004673E6 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
-				B16815452498DB22004673E6 /* RealmHandler.swift */,
+				B16AAD9E249A74A2003059EB /* RealmHandler.swift */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -458,8 +458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16AAD9F249A74A2003059EB /* RealmHandler.swift in Sources */,
 				B16815552498DB80004673E6 /* ViewController.swift in Sources */,
-				B16815462498DB22004673E6 /* RealmHandler.swift in Sources */,
 				B16815432498DAF3004673E6 /* AppDelegate.swift in Sources */,
 				B16815422498DAF3004673E6 /* SceneDelegate.swift in Sources */,
 			);
